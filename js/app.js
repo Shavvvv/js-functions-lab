@@ -65,7 +65,7 @@ function maxOfTwoNumbers(x, y) {
     // return  x >= y ? x : y;
   }
   
-  console.log(maxOfTwoNumbers(3, 9));
+  console.log("q1: ",maxOfTwoNumbers(3, 9));
   
   // 2.
   
@@ -88,7 +88,7 @@ return max
 
 
 let x=maxOfThree(8,2,9)
-  console.log(x)
+  console.log("q2: ",x)
 
 
   // 3.
@@ -111,7 +111,7 @@ let x=maxOfThree(8,2,9)
     }
   }
  
-  console.log(isCharAVowel('p'))
+  console.log("q3: ",isCharAVowel('p'))
 
 
   // 4. 
@@ -120,7 +120,7 @@ let x=maxOfThree(8,2,9)
    an array of numbers and returns the sum of those numbers.
     For example, sumArray([2, 4, 5]); would return 11.*/
 
-let num = [2,4,1]
+let num = [2,4,5]
 
     function sumArray(num){
 let sum=0;
@@ -131,4 +131,37 @@ num.forEach(function(val){
 return sum
     }
 
-    sumArray(num)
+  
+
+   console.log("q4: ",sumArray(num))
+
+
+
+
+
+   // 5.
+
+   /**Define a function, as a function declaration, multiplyArray that 
+    * takes an array of numbers and returns the product those numbers.
+    *  For example, multiplyArray([2, 4, 5]); would return 40. */
+
+
+   
+   
+   function multiplyArray(arr){
+   let product = arr[0];
+   for(let i=1;i<arr.length;i++){
+
+    product *=arr[i]
+   }
+return product;
+   }
+
+   console.log("q5: ",multiplyArray([3,5,2]))
+
+
+
+
+
+
+
