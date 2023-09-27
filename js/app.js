@@ -100,15 +100,35 @@ let x=maxOfThree(8,2,9)
  
 
   function isCharAVowel(character){
-    let vowels= "aeiou"
-    if(character.length===1 && vowels.includes(character)){
+
+    let upperChar= character.toUpperCase();
+
+    let vowels= "AEIOU"
+    if(upperChar.length===1 && vowels.includes(upperChar)){
         return true;
     } else {
         return false;
     }
   }
  
-  console.log(isCharAVowel('o'))
+  console.log(isCharAVowel('p'))
 
 
   // 4. 
+
+  /*Define a function, as a function expression, sumArray that takes
+   an array of numbers and returns the sum of those numbers.
+    For example, sumArray([2, 4, 5]); would return 11.*/
+
+let num = [2,4,1]
+
+    function sumArray(num){
+let sum=0;
+num.forEach(function(val){
+    sum+=val;
+})
+
+return sum
+    }
+
+    sumArray(num)
