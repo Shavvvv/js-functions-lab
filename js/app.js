@@ -27,3 +27,11 @@ sayGoodBye("Chao", "Becky");
 sayGoodBye("GoodBye", "Chad");
 
 sayGoodBye("Peace", "Frankie");
+
+
+function add(x, y){
+
+    return x + y
+}
+
+console.log(add(4,5))
