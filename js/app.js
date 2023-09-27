@@ -93,4 +93,22 @@ let x=maxOfThree(8,2,9)
 
   // 3.
 
-  
+  /*Define a function, as a function declaration, 
+  isCharAVowel that takes a character as an argument and 
+  returns true if it is a vowel, false otherwise. */
+
+ 
+
+  function isCharAVowel(character){
+    let vowels= "aeiou"
+    if(character.length===1 && vowels.includes(character)){
+        return true;
+    } else {
+        return false;
+    }
+  }
+ 
+  console.log(isCharAVowel('o'))
+
+
+  // 4. 
