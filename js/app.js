@@ -69,4 +69,28 @@ function maxOfTwoNumbers(x, y) {
   
   // 2.
   
+  /*Define a function, as a function expression, 
+  maxOfThree that takes three numbers as arguments and 
+  returns the largest of them. Again, the Math.max method is not allowed.*/ 
+
+
+  function maxOfThree(num1, num2, num3){
+let input = [num1, num2, num3];
+let max=input[0]
+input.forEach(function(number){
+    if(number>max){
+        max=number;
+    }
+});
+
+return max
+  }
+
+
+let x=maxOfThree(8,2,9)
+  console.log(x)
+
+
+  // 3.
+
   
