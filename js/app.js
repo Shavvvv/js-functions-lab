@@ -161,7 +161,19 @@ return product;
 
 
 
+// Q6 
+
+/** Define a function, as a function expression, numArgs that 
+ * returns the number of arguments passed to the function when called. */
 
 
+function numArgs(...args){
+    return args.length
+}
 
+
+console.log(numArgs('a',5,7))
+
+
+// Q7
 
