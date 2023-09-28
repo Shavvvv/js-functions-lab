@@ -172,8 +172,29 @@ function numArgs(...args){
 }
 
 
-console.log(numArgs('a',5,7))
+console.log('Q6: ',numArgs('a',5,7))
 
 
 // Q7
 
+/** Define a function, as a function declaration, reverseString that takes a string, 
+ * reverses the characters, and returns it. For example, reverseString('rockstar');
+ *  would return the string "ratskcor". */
+
+
+function reverseString(word7){
+
+let arr7=[]
+for(let i=0;i<word7.length;i++){
+
+    arr7.push(word7[i])
+}
+arr7.reverse();
+arr7=arr7.join('')
+return arr7
+}
+
+console.log('Q7: ',reverseString('rockstar'))
+
+
+//Q8
