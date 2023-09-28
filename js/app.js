@@ -198,3 +198,29 @@ console.log('Q7: ',reverseString('rockstar'))
 
 
 //Q8
+
+/**  Define a function, as a function expression, longestStringInArray that takes an
+ *  array of strings as an argument and returns the length of the longest string.*/
+
+
+
+function longestStringInArray(arr8){
+let longest= arr8[0]
+let longestLength=arr8[0].length
+
+arr8.forEach(function(val){
+
+if(longestLength<val.length){
+    longest=val;
+    longestLength=val.length
+}
+
+})
+return ("longest: ", longest, " - ", longestLength)
+
+
+}
+
+console.log(longestStringInArray(['arr8', 'frrfrf','lannamans']))
+
+
